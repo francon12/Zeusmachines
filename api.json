@@ -1,0 +1,38 @@
+[
+    {
+      "precio": 6000,
+      "id": 1,
+      "title": "Bancos multi uso",
+      "thumbnailUrl": "./img/bancos.jfif"
+    },
+    {
+      "precio": 8000,
+      "id": 2,
+      "title": "Porta Discos",
+      "thumbnailUrl": "./img/portadiscos.jfif"
+    },
+    {
+      "precio": 10000,
+      "id": 3,
+      "title": "Rack de sentadillas",
+      "thumbnailUrl": "./img/racksentadillas.jfif"
+    },
+    {
+      "precio": 15000,
+      "id": 4,
+      "title": "Porta Barras",
+      "thumbnailUrl": "./img/portabarras.jfif"
+    },
+    {
+      "precio": 11000,
+      "id": 5,
+      "title": "Banco Plano",
+      "thumbnailUrl": "./img/bancoplano.jpg"
+    },
+    {
+      "precio":30000,
+      "id": 6,
+      "title": "Maquina de hombros",
+      "thumbnailUrl": "./img/maquinahombros.webp"
+    }
+]

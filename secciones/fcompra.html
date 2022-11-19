@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="formu.css">
+    <title>PRODUCTOS</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-blue sticky-top" id="nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img  class="img" src="../img/foto.png" alt="logo de gimnasio templo">
+            </a>
+            <button class="navbar-toggler bg-bot" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse contenedor" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-1 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link nv" id="nave" aria-current="page" href="#zeus">Zeus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nv" id="nave" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nave" href="#horarios">Horarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nave" href="#contacto">Contacto</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+    <div class="completar">
+        <main class="contenedor">
+            <h1 class="cabecera">Complete el Formulario</h1>
+            <form id="frm-formu" action="procesar.php" method="">
+                <div>
+                    <label for="nombre">Nombre y Apellido</label>
+                    <input type="text" id="nombre" class="inputs">
+                    <p></p> 
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" class="inputs">
+                    <p></p>                
+                </div>
+                <div>
+                    <label for="txt-dni">DNI</label>
+                    <input type="number" id="txt-dni" class="inputs"> 
+                    <p></p> 
+                </div>
+                <div>
+                    <label for="txt-loca">Localidad</label>
+                    <input type="text" id="txt-loca" class="inputs" > 
+                    <p></p> 
+                </div>
+                <div>
+                    <label for="txt-dire">Direccion</label>
+                    <input type="text" id="txt-dire" class="inputs"> 
+                    <p></p> 
+                </div>
+                <div>
+                    <label for="inputNumero">Número Tarjeta</label>
+                    <input type="text" id="inputNumero"  autocomplete="off" class="inputs">
+                    <p></p> 
+                </div>
+                <div>
+                    <div>
+                        <label for="selectMes">Vencimiento</label>
+                        <div class="venci">
+                            <div>
+                                <select name="mes" id="selectMes" required class="venci">
+                                    <option disabled selected required >Mes</option>
+                                    <option value="number">01</option>
+                                    <option value="number">02</option>
+                                    <option value="number">03</option>
+                                    <option value="number">04</option>
+                                    <option value="number">05</option>
+                                    <option value="number">06</option>
+                                    <option value="number">07</option>
+                                    <option value="number">08</option>
+                                    <option value="number">09</option>
+                                    <option value="number">10</option>
+                                    <option value="number">11</option>
+                                    <option value="number">12</option>
+                                </select>
+                                <p></p> 
+                            </div>
+                            <div>
+                                <select name="year" id="selectYear" class="venci">
+                                    <option disabled selected required>Año</option>
+                                    <option value="año">2022</option>
+                                    <option value="año">2023</option>
+                                    <option value="año">2024</option>
+                                    <option value="año">2025</option>
+                                    <option value="año">2026</option>
+                                    <option value="año">2027</option>
+                                    <option value="año">2028</option>
+                                </select>
+                                <p></p> 
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="inputCCV">CCV</label>
+                        <input type="text" id="inputCCV" maxlength="3" class="inputs" >
+                        <p></p> 
+                    </div>
+                </div>
+                <div class="btnEnvio">
+                <button class="button_top">Enviar</button>
+                </div>
+            </form>
+        </main>
+    </div>
+    <div class="container-fluid rSociales ">
+        <footer class="row flow">
+            <div class="foot">
+                <div>
+                <h2 class="pie"> © 2022 Gimnasio TEMPLO / ZEUS Machines</h2>
+                </div>
+                <div class="col-lg-4 col-xs-12 redes ">
+                    <a href="https://www.facebook.com/10JuanRomanRiquelme10/"target="_blank">
+                        <img class="pieF" src="../img/twitter.jpg" alt="Imagen de la Pagina web de Facebook.">
+                    </a>
+                    <a href="https://twitter.com/riquelmecabj?lang=es"target="_blank">
+                        <img class="pieF" src="../img/face.jpg" alt="Imagen de Pagina web de Twitter.">
+                    </a>
+                    <a href="https://www.instagram.com/todosobreroman10/"target="_blank">
+                        <img class="pieF" src="../img/insta.jpg" alt="Imagen de Pagina web de instagram con direccion a la pagina de todosobreroman10">
+                    </a>
+                    <a href="https://www.youtube.com/user/RomanxRoman10"target="_blank">
+                        <img class="pieF" src="../img/you.jpg" alt="Imagen de youtube de romanxroman10">
+                    </a>  
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="formulario.js"></script>
+</body>
+</html>
